@@ -1,0 +1,16 @@
+# .gitignore
+.git
+.DS_Store
+*.dSYM/
+a.out
+test*
+*.o
+*.a
+valgrind-out.txt
+tmp/
+test/
+main.sh
+minishell
+*\ copy/
+*\ copy.*
+msh_tester/

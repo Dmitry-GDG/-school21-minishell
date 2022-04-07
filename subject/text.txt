@@ -1,0 +1,60 @@
+echo "$PWD" jhjh "llk kjkj" kjk'kjkjk'kjk
+/Users/trurgot/Documents/projects/03-minishell/minishell jhjh llk kjkj kjkkjkjkkjk
+
+echo "$PWD"jhjh "llk kjkj" kjk'kjkjk'kjk 
+/Users/trurgot/Documents/projects/03-minishell/minishelljhjh llk kjkj kjkkjkjkkjk
+
+echo "$PWD"jhjh$HOME "llk kjkj" kjk'kjkjk'kjk
+/Users/trurgot/Documents/projects/03-minishell/minishelljhjh/Users/trurgot llk kjkj kjkkjkjkkjk
+
+echo "$PWD"jhjh$HOME"ff"  "llk kjkj" kjk'kjkjk'kjk
+/Users/trurgot/Documents/projects/03-minishell/minishelljhjh/Users/trurgotff llk kjkj kjkkjkjkkjk
+
+echo "$PWD"jhjh$HOMEff  "llk kjkj" kjk'kjkjk'kjk 
+/Users/trurgot/Documents/projects/03-minishell/minishelljhjh llk kjkj kjkkjkjkkjk
+
+echo "$PWDjhjh$HOMEff"  "llk kjkj" kjk'kjkjk'kjk 
+ llk kjkj kjkkjkjkkjk
+
+echo "v$PWDjhjh$HOMEff"  "llk kjkj" kjk'kjkjk'kjk
+v llk kjkj kjkkjkjkkjk
+
+echo v$PWDjhjh$HOMEff  "llk kjkj" kjk'kjkjk'kjk 
+v llk kjkj kjkkjkjkkjk
+
+echo "$PWD" jhjh "llk kjkj" kjk'kjkjk'kjk
+/Users/trurgot/Documents/projects/03-minishell/minishell jhjh llk kjkj kjkkjkjkkjk 
+
+echo '$PWD' jhjh "llk kjkj" kjk'kjkjk'kjk
+$PWD jhjh llk kjkj kjkkjkjkkjk
+
+"echo" "$PWDjhjh$HOMEff"  "llk kjkj" kjk'kjkjk'kjk 
+ llk kjkj kjkkjkjkkjk
+
+"ech"o "$PWDjhjh$HOMEff"  "llk kjkj" kjk'kjkjk'kjk 
+ llk kjkj kjkkjkjkkjk
+
+'ech'o "$PWDjhjh$HOMEff"  "llk kjkj" kjk'kjkjk'kjk 
+ llk kjkj kjkkjkjkkjk
+
+'e"c"h'o "$PWDjhjh$HOMEff"  "llk kjkj" kjk'kjkjk'kjk 
+bssh: command not found: e"c"ho
+
+"e'c'h"o "$PWDjhjh$HOMEff"  "llk kjkj" kjk'kjkjk'kjk 
+bash: command not found: e'c'ho
+
+"e"c'h'o "$PWDjhjh$HOMEff"  "llk kjkj" kjk'kjkjk'kjk 
+ llk kjkj kjkkjkjkkjk
+
+echo$PWD
+bash: echo/Users/trurgot/Documents/projects/03-minishell/minishell: No such file or directory
+
+echo "$PWD'$PWD'" jhjh "llk kjkj" kjk'kjkjk'kjk
+/Users/trurgot/Documents/projects/03-minishell/minishell'/Users/trurgot/Documents/projects/03-minishell/minishell' jhjh llk kjkj kjkkjkjkkjk
+
+echo '$PWD"$PWD"' jhjh "llk kjkj" kjk'kjkjk'kjk
+$PWD"$PWD" jhjh llk kjkj kjkkjkjkkjk
+
+env | sort | grep -v SHLVL |grep -v _= 
+$PWD
+
